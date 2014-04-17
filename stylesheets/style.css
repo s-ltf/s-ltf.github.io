@@ -1,0 +1,98 @@
+@import 'reset.css';
+
+@import 'demo.css';
+html {
+    height:100%
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Audiowide', cursive;
+    //text-shadow: 5px 5px 5px #7C7171;
+    color:#13111F
+}
+
+body {
+    width: 100%;
+    *zoom: 1;
+    background-color:#D3D3D3;
+    background-size:100% 100%;
+    background-repeat:repeat;
+}
+
+body:before,
+body:after {
+    content: "";
+    display: table;
+}
+
+body:after {
+    clear: both;
+}
+
+div.center {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header#top {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    margin-bottom: 1em;
+}
+
+#s-logo {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.0416666666666665%;
+    margin-left: 34.37499999999999%;
+    margin-bottom: 1em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+#link_container {
+    display: inline;
+    float: left;
+    width: 97.91666666666666%;
+    margin: 0 1.0416666666666665%;
+    text-align: center;
+}
+
+.icon_link{
+    width:123px;
+    height:123px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right:20px;
+    margin-left:20px;
+    background-image:url("http://sari.alatif.ca/img/icons_list.png")
+}
+
+#github_link {background-position:0px 0px}
+#linkedin_link {background-position:-130px 0px}
+#resume_link {background-position:-255px 0px}
+
+@media screen and (max-width: 720px) {
+    #push,
+    #temp {
+        display: inline;
+        float: left;
+        width: 97.91666666666666%;
+        margin: 0 1.0416666666666665%;
+        margin-bottom: 1em;
+    }
+
+    #push {
+        margin-left: 9.374999999999998%;
+    }
+}
+
+

@@ -73,7 +73,7 @@ header#top {
     background-repeat: no-repeat;
     margin-right:20px;
     margin-left:20px;
-    background-image:url("http://sari.alatif.ca/img/icons_list.png")
+    background-image:url("/img/icons_list.png")
 }
 
 #github_link {background-position:0px 0px}

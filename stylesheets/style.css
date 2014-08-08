@@ -79,6 +79,7 @@ header#top {
 #github_link {background-position:0px 0px}
 #linkedin_link {background-position:-130px 0px}
 #resume_link {background-position:-255px 0px}
+#project_link {background-position:-255px 0px}
 
 @media screen and (max-width: 720px) {
     #push,
